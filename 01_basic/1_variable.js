@@ -3,6 +3,9 @@ let studentName = "Sumit"
 var studentEmail = "sumit123@gmail.com"
 studentCity = "Kanpur"
 
+// That's called undefined where we don't defined the value to the variable
+let studentBranch
+
 // const variable can not be changed
 
 // studentId = 4211
@@ -16,4 +19,4 @@ studentEmail = "sharma123@gmail.com"
 // By default var
 studentCity = "Lucknow"
 
-console.table([studentId , studentName , studentEmail , studentCity])
+console.table([studentId , studentName , studentEmail , studentCity , studentBranch])
